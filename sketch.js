@@ -29,9 +29,9 @@ var score = 0;
 var birds=[];
 
 function preload() {
-    bgImg=loadImage(bg);
+
     getBackgroundImg();
-   
+    bgImg=loadImage(bg);
 
     birdFlySound=loadSound("sounds/bird_flying.mp3")
     pigSnortSound=loadSound("sounds/pig_snort.mp3")
